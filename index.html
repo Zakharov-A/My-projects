@@ -10,7 +10,7 @@
 <body>
   <header>
     <div id="logo" onclick="slowScroll('#top')">
-      <span>All my projects</span>  
+      <span>My first projects</span>  
     </div> 
     <div id="about">
       <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
@@ -23,11 +23,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
     function slowScroll(id) {
-    $('body').animate({
-      scrollTop: $(id).offset().top
-    }, 500);  
+      $('body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);  
     }
 
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
   </script>
 </body>
 </html>
