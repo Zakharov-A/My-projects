@@ -19,7 +19,7 @@ body {
 /* Шапка сайта */
 
 header {
-    width: 100;
+    width: 100%;
     padding: 10px 0.5% 0px 0.5%;
     background: transparent;
     float: left;
@@ -51,7 +51,7 @@ header #logo span {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #logo {
     margin-top: 15px;
     width: 100%;
@@ -115,5 +115,10 @@ header.fixed #logo {
 #top h1 {
   padding-top: 20%;
 }
+
+# top h3 {
+   color: #ccc;
+}
+
 
 

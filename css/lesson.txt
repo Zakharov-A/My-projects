@@ -1,4 +1,16 @@
-Ссылка на урок:  file:///home/zed/Projects/My-projects/index.html#
+Ссылка на урок:  
+https://www.youtube.com/watch?v=bTabgnRgD3A
+Ссылки из видео:
 
+1) VDSina сервер: 
+http://bit.ly/2N3Pucm
 
-02.09
+2) Макхост: 
+https://mchost.ru/
+
+3) VestaCP: 
+http://vestacp.com/install/
+
+4) Код и все материалы: 
+https://itproger.com/course/one-lesso...
+06.09
