@@ -178,6 +178,21 @@ header.fixed #logo {
 #main h2 {font-size: 3em;}
 #main span {color: a0a0a0;}
 
+/* Блок с преимуществами */
+
+#overview {
+  float: left;
+  background-image: url(https://img2.goodfon.ru/original/1920x1200/6/43/galaktika-zvezdy-siniy-2782.jpg);
+  background-blend-mode: multiply;
+  background-color: #4f1c75;
+  background-attachment: fixed;
+  
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
 
 
 
