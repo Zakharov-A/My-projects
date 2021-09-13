@@ -102,24 +102,26 @@ header.fixed #logo {
 
 #top {
   width: 100%;
-  height: 1000px;
   background-image: url(https://i.artfile.ru/2500x1421_1549049_[www.ArtFile.ru].jpg);
   background-blend-mode: multiply;
   background-color: 2e3a44;
   background-size: cover;
   text-align: center;
-  color: #777;
+  color: #fff;
 }
+
 
 @media (min-width: 1001px) {
   #top {
     font-size: 3em;
+    height: 1000px;
   }
 }
 
 @media (max-width: 1000px) and (min-width: 651px) {
   #top {
     font-size: 2em;
+    height: 600px;
   }
 }
 
@@ -127,6 +129,7 @@ header.fixed #logo {
   #top {
     font-size: 1.2em;
     padding-top: 50%;
+    height: 500px;
   }
 }
 
@@ -182,9 +185,12 @@ header.fixed #logo {
 
 #overview {
   float: left;
-  background-image: url(https://img2.goodfon.ru/original/1920x1200/6/43/galaktika-zvezdy-siniy-2782.jpg);
+  background-image:
+  url(https://cdn.publish0x.com/prod/fs/images/fc43267371105e9df6f894e7bf581471c0c54bdaa8b22fa362559eb4a1903c24.jpeg);
+  
   background-blend-mode: multiply;
   background-color: #4f1c75;
+  background-size: cover;
   background-attachment: fixed;
   
   padding: 100px 0;
@@ -193,7 +199,40 @@ header.fixed #logo {
   color: #fff;
 }
 
+#overview h2 {font-size: 4em;}
+#overview h4 {color: #ccc; font-size: 1.5em;}
 
+#overview .img {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 50px; 
+}
 
+#overview .img:nth-child(odd) {
+  margin-left: 18%;
+}
 
+#overview img {
+  background: #fafafa;
+  padding: 5px;
+  border: 2px solid silver;
+  float: left;
+  width: 100%;
+  max-width: 300px;
+}
 
+#overview span {
+  float: left;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  #overview .img {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: !important;
+  }
+}
