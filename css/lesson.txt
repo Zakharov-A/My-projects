@@ -20,3 +20,7 @@ https://itproger.com/course/one-lesso...
 
 Ccылки картинки:
 
+/* Блок с преимуществами */
+background-image:
+https://cdn.publish0x.com/prod/fs/images/fc43267371105e9df6f894e7bf581471c0c54bdaa8b22fa362559eb4a1903c24.jpeg
+
