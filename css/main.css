@@ -102,26 +102,26 @@ header.fixed #logo {
 
 #top {
   width: 100%;
-  background-image: url(https://i.artfile.ru/2500x1421_1549049_[www.ArtFile.ru].jpg);
+  background-image: url(https://mk0fertilizerdauhxos.kinstacdn.com/wp-content/uploads/2018/08/Future2.jpg);
   background-blend-mode: multiply;
   background-color: 2e3a44;
   background-size: cover;
   text-align: center;
-  color: #fff;
+  color: rgb(252, 250, 251);
 }
 
 
 @media (min-width: 1001px) {
   #top {
     font-size: 3em;
-    height: 1000px;
+    height: 600px;
   }
 }
 
 @media (max-width: 1000px) and (min-width: 651px) {
   #top {
     font-size: 2em;
-    height: 600px;
+    height: 300px;
   }
 }
 
@@ -129,7 +129,7 @@ header.fixed #logo {
   #top {
     font-size: 1.2em;
     padding-top: 50%;
-    height: 500px;
+    height: 150px;
   }
 }
 
@@ -181,15 +181,15 @@ header.fixed #logo {
 #main h2 {font-size: 3em;}
 #main span {color: a0a0a0;}
 
-/* Блок с преимуществами */
+/* Блок с эко технологиями */
 
 #overview {
   float: left;
   background-image:
-  url(https://cdn.publish0x.com/prod/fs/images/fc43267371105e9df6f894e7bf581471c0c54bdaa8b22fa362559eb4a1903c24.jpeg);
+  url(https://i.pinimg.com/originals/30/ca/fa/30cafad254f6f6ac300f41fde8bbd5b2.jpg); 
   
   background-blend-mode: multiply;
-  background-color: #4f1c75;
+  background-color: #a29fa5;
   background-size: cover;
   background-attachment: fixed;
   
@@ -199,7 +199,7 @@ header.fixed #logo {
   color: #fff;
 }
 
-#overview h2 {font-size: 4em;}
+#overview h2 {font-size: 3em;}
 #overview h4 {color: #ccc; font-size: 1.5em;}
 
 #overview .img {
@@ -218,8 +218,10 @@ header.fixed #logo {
   padding: 5px;
   border: 2px solid silver;
   float: left;
-  width: 100%;
+  width: 100%; 
   max-width: 300px;
+  height: 200px;
+  
 }
 
 #overview span {
@@ -358,4 +360,11 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 40px;
 }
 
+/* Подвал сайта */
 
+#footer p {
+  font-family: Arimo, Helvetica, sans-serif;
+  text-align: center;
+  color: #0e0d0d;
+  font-size: 1.5em;
+  
